@@ -7,7 +7,7 @@ import (
 )
 
 func FIO(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "Айказян Ашот Ашотович 791")
+	fmt.Fprintf(w, "ФИО 791")
 }
 func status(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprintf(w, "HTTP-статус 200")
